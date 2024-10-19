@@ -1,2 +1,0 @@
-listen_address = 'localhost:8088'
-database_url = 'postgres://localhost/actix_test'
