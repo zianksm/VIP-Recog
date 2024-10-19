@@ -1,2 +1,6 @@
 [workspace]
 members = ["games/tic-tac-toe", "server"]
+
+[workspace.dependencies]
+uuid = {version ="1.11.0", features = ["v4", "fast-rng"]} # A library to generate and parse UUIDs.
+thiserror = "1.0.64"                  # derive(Error)
